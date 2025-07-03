@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="22.7" version="22.7" Modules="enterprise" RootPath="." Language="id" Id="{73C10C0C-CA18-4ACA-81DA-A8A28A68C405}">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="Ini adalah aplikasi kelompok-4 untuk memenuhi tugas mata kuliah pemrograman 1, dosen pengampu Pak Niki Ratama S.Kom., M.Kom." ValueLocId="*"/>
+    <ROW Property="CurrentJavaProductName" Value="CurrentJavaProductName"/>
+    <ROW Property="Manufacturer" Value="Havira Brani"/>
+    <ROW Property="ProductCode" Value="1057:{34431623-C5E3-4B86-AD70-6AD435EDEC93} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Aplikasi Photography"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Options="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{156838CB-685D-4C48-AC55-34D09B50BF3E}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT60" MultiBuildValue="DefaultBuild:Windows Vista/Server 2008" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT60Display" MultiBuildValue="DefaultBuild:Windows Vista/Server 2008" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1" DirectoryOptions="3"/>
+    <ROW Directory="Admin_1_Dir" Directory_Parent="src_Dir" DefaultDir="Admin" DirectoryOptions="3"/>
+    <ROW Directory="Admin_Dir" Directory_Parent="classes_Dir" DefaultDir="Admin" DirectoryOptions="3"/>
+    <ROW Directory="HalamanInformasiPemesanan_1_Dir" Directory_Parent="Pelanggan_3_Dir" DefaultDir="HALAMA~1|HalamanInformasiPemesanan" DirectoryOptions="3"/>
+    <ROW Directory="HalamanInformasiPemesanan_Dir" Directory_Parent="Pelanggan_1_Dir" DefaultDir="HALAMA~1|HalamanInformasiPemesanan" DirectoryOptions="3"/>
+    <ROW Directory="HalamanInvoice_1_Dir" Directory_Parent="Pelanggan_3_Dir" DefaultDir="HALAMA~2|HalamanInvoice" DirectoryOptions="3"/>
+    <ROW Directory="HalamanInvoice_Dir" Directory_Parent="Pelanggan_1_Dir" DefaultDir="HALAMA~2|HalamanInvoice" DirectoryOptions="3"/>
+    <ROW Directory="HalamanPemesanan_1_Dir" Directory_Parent="Pelanggan_3_Dir" DefaultDir="HALAMA~3|HalamanPemesanan" DirectoryOptions="3"/>
+    <ROW Directory="HalamanPemesanan_Dir" Directory_Parent="Pelanggan_1_Dir" DefaultDir="HALAMA~3|HalamanPemesanan" DirectoryOptions="3"/>
+    <ROW Directory="Invoice_1_Dir" Directory_Parent="Admin_1_Dir" DefaultDir="Invoice" DirectoryOptions="3"/>
+    <ROW Directory="Invoice_Dir" Directory_Parent="Admin_Dir" DefaultDir="Invoice" DirectoryOptions="3"/>
+    <ROW Directory="JadwalFoto_1_Dir" Directory_Parent="Pegawai_1_Dir" DefaultDir="JADWAL~1|JadwalFoto" DirectoryOptions="3"/>
+    <ROW Directory="JadwalFoto_2_Dir" Directory_Parent="Admin_1_Dir" DefaultDir="JADWAL~1|JadwalFoto" DirectoryOptions="3"/>
+    <ROW Directory="JadwalFoto_3_Dir" Directory_Parent="Pegawai_4_Dir" DefaultDir="JADWAL~1|JadwalFoto" DirectoryOptions="3"/>
+    <ROW Directory="JadwalFoto_Dir" Directory_Parent="Admin_Dir" DefaultDir="JADWAL~1|JadwalFoto" DirectoryOptions="3"/>
+    <ROW Directory="Paket_1_Dir" Directory_Parent="Admin_1_Dir" DefaultDir="Paket" DirectoryOptions="3"/>
+    <ROW Directory="Paket_Dir" Directory_Parent="Admin_Dir" DefaultDir="Paket" DirectoryOptions="3"/>
+    <ROW Directory="Pegawai_1_Dir" Directory_Parent="classes_Dir" DefaultDir="Pegawai" DirectoryOptions="3"/>
+    <ROW Directory="Pegawai_2_Dir" Directory_Parent="Pegawai_1_Dir" DefaultDir="Pegawai" DirectoryOptions="3"/>
+    <ROW Directory="Pegawai_3_Dir" Directory_Parent="Admin_1_Dir" DefaultDir="Pegawai" DirectoryOptions="3"/>
+    <ROW Directory="Pegawai_4_Dir" Directory_Parent="src_Dir" DefaultDir="Pegawai" DirectoryOptions="3"/>
+    <ROW Directory="Pegawai_5_Dir" Directory_Parent="Pegawai_4_Dir" DefaultDir="Pegawai" DirectoryOptions="3"/>
+    <ROW Directory="Pegawai_Dir" Directory_Parent="Admin_Dir" DefaultDir="Pegawai" DirectoryOptions="3"/>
+    <ROW Directory="Pelanggan_1_Dir" Directory_Parent="classes_Dir" DefaultDir="PELANG~1|Pelanggan" DirectoryOptions="3"/>
+    <ROW Directory="Pelanggan_2_Dir" Directory_Parent="Admin_1_Dir" DefaultDir="PELANG~1|Pelanggan" DirectoryOptions="3"/>
+    <ROW Directory="Pelanggan_3_Dir" Directory_Parent="src_Dir" DefaultDir="PELANG~1|Pelanggan" DirectoryOptions="3"/>
+    <ROW Directory="Pelanggan_Dir" Directory_Parent="Admin_Dir" DefaultDir="PELANG~1|Pelanggan" DirectoryOptions="3"/>
+    <ROW Directory="Pelanggann_1_Dir" Directory_Parent="src_Dir" DefaultDir="PELANG~2|Pelanggann" DirectoryOptions="3"/>
+    <ROW Directory="Pelanggann_Dir" Directory_Parent="classes_Dir" DefaultDir="PELANG~2|Pelanggann" DirectoryOptions="3"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="TugasKelompok4_Dir" Directory_Parent="APPDIR" DefaultDir="TUGAS-~1|Tugas-Kelompok-4" DirectoryOptions="3"/>
+    <ROW Directory="Users_1_Dir" Directory_Parent="Admin_1_Dir" DefaultDir="Users" DirectoryOptions="3"/>
+    <ROW Directory="Users_Dir" Directory_Parent="Admin_Dir" DefaultDir="Users" DirectoryOptions="3"/>
+    <ROW Directory="Utill_1_Dir" Directory_Parent="src_Dir" DefaultDir="Utill" DirectoryOptions="3"/>
+    <ROW Directory="Utill_Dir" Directory_Parent="classes_Dir" DefaultDir="Utill" DirectoryOptions="3"/>
+    <ROW Directory="build_Dir" Directory_Parent="TugasKelompok4_Dir" DefaultDir="build" DirectoryOptions="3"/>
+    <ROW Directory="classes_Dir" Directory_Parent="build_Dir" DefaultDir="classes" DirectoryOptions="3"/>
+    <ROW Directory="dist_Dir" Directory_Parent="TugasKelompok4_Dir" DefaultDir="dist" DirectoryOptions="3"/>
+    <ROW Directory="kelompok_1_Dir" Directory_Parent="tugas_1_Dir" DefaultDir="kelompok" DirectoryOptions="3"/>
+    <ROW Directory="kelompok_Dir" Directory_Parent="tugas_Dir" DefaultDir="kelompok" DirectoryOptions="3"/>
+    <ROW Directory="lib_Dir" Directory_Parent="dist_Dir" DefaultDir="lib" DirectoryOptions="3"/>
+    <ROW Directory="nbproject_Dir" Directory_Parent="TugasKelompok4_Dir" DefaultDir="NBPROJ~1|nbproject" DirectoryOptions="3"/>
+    <ROW Directory="pkg4_1_Dir" Directory_Parent="kelompok_1_Dir" DefaultDir="pkg4" DirectoryOptions="3"/>
+    <ROW Directory="pkg4_Dir" Directory_Parent="kelompok_Dir" DefaultDir="pkg4" DirectoryOptions="3"/>
+    <ROW Directory="private_Dir" Directory_Parent="nbproject_Dir" DefaultDir="private" DirectoryOptions="3"/>
+    <ROW Directory="src_Dir" Directory_Parent="TugasKelompok4_Dir" DefaultDir="src" DirectoryOptions="3"/>
+    <ROW Directory="tugas_1_Dir" Directory_Parent="src_Dir" DefaultDir="tugas" DirectoryOptions="3"/>
+    <ROW Directory="tugas_Dir" Directory_Parent="classes_Dir" DefaultDir="tugas" DirectoryOptions="3"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.SideBySideGuidComponent">
+    <ROW Component="APPDIR" Value="{36DFEAF9-DDFA-400E-BD20-C8517D685810}"/>
+    <ROW Component="ProductInformation" Value="{27573226-3FBF-4D09-95A2-242E5942D2A2}"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="APPDIR" ComponentId="{36DFEAF9-DDFA-400E-BD20-C8517D685810}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="DBConnection.class" ComponentId="{8046A391-9605-4AFD-AB59-5061EF0F9688}" Directory_="Utill_Dir" Attributes="0" KeyPath="DBConnection.class" Type="0"/>
+    <ROW Component="DBConnection.java" ComponentId="{DB46A44C-46D2-433B-B74A-4DD7AE3419B6}" Directory_="Utill_1_Dir" Attributes="0" KeyPath="DBConnection.java" Type="0"/>
+    <ROW Component="DashboardAdmin.form" ComponentId="{8FD76ECF-FBC6-4AA8-BBFD-ED9D7924BEA7}" Directory_="Admin_1_Dir" Attributes="0" KeyPath="DashboardAdmin.form_1" Type="0"/>
+    <ROW Component="DashboardAdmin1.class" ComponentId="{7BE497B4-2E6B-41C6-AE40-7A7549D7B34B}" Directory_="Admin_Dir" Attributes="0" KeyPath="DashboardAdmin1.class" Type="0"/>
+    <ROW Component="DashboardPegawai.form" ComponentId="{C8EF0413-1F89-4942-BD61-22D4910D9731}" Directory_="Pegawai_4_Dir" Attributes="0" KeyPath="DashboardPegawai.form_1" Type="0"/>
+    <ROW Component="DashboardPegawai1.class" ComponentId="{A1DF3882-F705-4073-8C02-FA7DB10ECD88}" Directory_="Pegawai_1_Dir" Attributes="0" KeyPath="DashboardPegawai1.class" Type="0"/>
+    <ROW Component="DateChooser.jar" ComponentId="{3468D9D1-46E6-4CB5-9B38-971EE66E12DE}" Directory_="lib_Dir" Attributes="0" KeyPath="DateChooser.jar" Type="0"/>
+    <ROW Component="HalamanInformasiPemesanan.form" ComponentId="{8DECEB33-1649-4196-9A33-780C3C304D78}" Directory_="HalamanInformasiPemesanan_1_Dir" Attributes="0" KeyPath="HalamanInformasiPemesanan.form_1" Type="0"/>
+    <ROW Component="HalamanInformasiPemesanan1.class" ComponentId="{79870B8C-1625-412A-9DAB-A14031B40AAF}" Directory_="HalamanInformasiPemesanan_Dir" Attributes="0" KeyPath="HalamanInformasiPemesanan1.class" Type="0"/>
+    <ROW Component="HalamanInvoice.form" ComponentId="{3BB0FC91-C80F-432A-B47D-F2B293A9F8F0}" Directory_="HalamanInvoice_1_Dir" Attributes="0" KeyPath="HalamanInvoice.form_1" Type="0"/>
+    <ROW Component="HalamanInvoice1.class" ComponentId="{9F628CF4-079F-400F-A307-D92A1B4C97B7}" Directory_="HalamanInvoice_Dir" Attributes="0" KeyPath="HalamanInvoice1.class" Type="0"/>
+    <ROW Component="HalamanLogin.form" ComponentId="{F3A1C2B0-AACD-4978-847F-B0A9B1BB9FBA}" Directory_="pkg4_1_Dir" Attributes="0" KeyPath="HalamanLogin.form_1" Type="0"/>
+    <ROW Component="HalamanLogin1.class" ComponentId="{DEFF72F5-EFB0-42D9-BE1B-F34866865875}" Directory_="pkg4_Dir" Attributes="0" KeyPath="HalamanLogin1.class" Type="0"/>
+    <ROW Component="HalamanPemesanan.form" ComponentId="{10EFD73D-9372-41FB-94C9-C7FE96C73FB4}" Directory_="HalamanPemesanan_1_Dir" Attributes="0" KeyPath="HalamanPemesanan.form_1" Type="0"/>
+    <ROW Component="HalamanPemesanan1.class" ComponentId="{90997788-2C8B-4CDC-A304-FFC71BA1670E}" Directory_="HalamanPemesanan_Dir" Attributes="0" KeyPath="HalamanPemesanan1.class" Type="0"/>
+    <ROW Component="HaviraBraniPhotography.exe" ComponentId="{4078920B-AD27-43A6-B34D-69CB0BA131D4}" Directory_="APPDIR" Attributes="0" KeyPath="HaviraBraniPhotography.exe"/>
+    <ROW Component="KelolaInvoice.form" ComponentId="{DA5CA04A-F509-4B95-8245-F2C63E850142}" Directory_="Invoice_1_Dir" Attributes="0" KeyPath="KelolaInvoice.form_1" Type="0"/>
+    <ROW Component="KelolaInvoice1.class" ComponentId="{5072031C-B264-4A18-9642-AE0E3DAA05C8}" Directory_="Invoice_Dir" Attributes="0" KeyPath="KelolaInvoice1.class" Type="0"/>
+    <ROW Component="KelolaJadwalFoto.form" ComponentId="{8A64DC29-8038-4F3D-8FA6-872B3156DCA3}" Directory_="JadwalFoto_2_Dir" Attributes="0" KeyPath="KelolaJadwalFoto.form_2" Type="0"/>
+    <ROW Component="KelolaJadwalFoto.form_1" ComponentId="{A127DB3E-6FA1-4995-8629-6008EF25E000}" Directory_="JadwalFoto_3_Dir" Attributes="0" KeyPath="KelolaJadwalFoto.form_3" Type="0"/>
+    <ROW Component="KelolaJadwalFoto1.class" ComponentId="{2C6C28E3-3717-4EEC-A2B2-57DA2FB37E4B}" Directory_="JadwalFoto_Dir" Attributes="0" KeyPath="KelolaJadwalFoto1.class" Type="0"/>
+    <ROW Component="KelolaJadwalFoto1.class_1" ComponentId="{81D81CEB-8B4D-4633-B721-DEC34971C4E9}" Directory_="JadwalFoto_1_Dir" Attributes="0" KeyPath="KelolaJadwalFoto1.class_1" Type="0"/>
+    <ROW Component="KelolaPaket.form" ComponentId="{F3D8E906-67F9-47DE-BF64-8B609F6D04CD}" Directory_="Paket_1_Dir" Attributes="0" KeyPath="KelolaPaket.form_1" Type="0"/>
+    <ROW Component="KelolaPaket1.class" ComponentId="{D326A7AE-9CB4-434A-A6D8-A6E177038958}" Directory_="Paket_Dir" Attributes="0" KeyPath="KelolaPaket1.class" Type="0"/>
+    <ROW Component="KelolaPegawai.form" ComponentId="{D2E0501C-D14D-4FD2-8413-D889B26DEDEF}" Directory_="Pegawai_3_Dir" Attributes="0" KeyPath="KelolaPegawai.form_2" Type="0"/>
+    <ROW Component="KelolaPegawai.form_1" ComponentId="{41341713-4849-4A8B-BF3D-DAE7B04E224C}" Directory_="Pegawai_5_Dir" Attributes="0" KeyPath="KelolaPegawai.form_3" Type="0"/>
+    <ROW Component="KelolaPegawai1.class" ComponentId="{144E0EED-9FA7-4BE8-BF3E-FC216BA95C1C}" Directory_="Pegawai_Dir" Attributes="0" KeyPath="KelolaPegawai1.class" Type="0"/>
+    <ROW Component="KelolaPegawai1.class_1" ComponentId="{8AC587F0-E00D-4822-942E-16CD2B772A38}" Directory_="Pegawai_2_Dir" Attributes="0" KeyPath="KelolaPegawai1.class_1" Type="0"/>
+    <ROW Component="KelolaPelanggan.form" ComponentId="{04EF52E8-F473-4EE9-BDD0-B1C0BB8B474A}" Directory_="Pelanggan_2_Dir" Attributes="0" KeyPath="KelolaPelanggan.form_1" Type="0"/>
+    <ROW Component="KelolaPelanggan1.class" ComponentId="{20C34580-FEC2-41DC-ADD0-9A539D2240F5}" Directory_="Pelanggan_Dir" Attributes="0" KeyPath="KelolaPelanggan1.class" Type="0"/>
+    <ROW Component="KelolaUsers.form" ComponentId="{A10D6D9E-FC61-492B-A112-E2383BB74FBF}" Directory_="Users_1_Dir" Attributes="0" KeyPath="KelolaUsers.form_1" Type="0"/>
+    <ROW Component="KelolaUsers1.class" ComponentId="{41B3906E-902C-492D-84CE-5A73DD2E23C1}" Directory_="Users_Dir" Attributes="0" KeyPath="KelolaUsers1.class" Type="0"/>
+    <ROW Component="Pelanggan.form" ComponentId="{B95AE060-A208-4CD6-B0A4-A4A3CDD1C784}" Directory_="Pelanggann_1_Dir" Attributes="0" KeyPath="Pelanggan.form_1" Type="0"/>
+    <ROW Component="Pelanggan1.class" ComponentId="{C7AD5CE2-CCE9-4E9D-BEA5-9C8F24C1D5E1}" Directory_="Pelanggann_Dir" Attributes="0" KeyPath="Pelanggan1.class" Type="0"/>
+    <ROW Component="ProductInformation" ComponentId="{27573226-3FBF-4D09-95A2-242E5942D2A2}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="README.TXT" ComponentId="{9FF9085D-3E1F-426D-94B0-E75A3B1C44C4}" Directory_="dist_Dir" Attributes="0" KeyPath="README.TXT" Type="0"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{3F6375C2-C627-474D-B8FC-2046FE18F56B}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="build.xml" ComponentId="{79E6CE5B-5606-4363-BE3F-843772B5475E}" Directory_="TugasKelompok4_Dir" Attributes="0" KeyPath="build.xml" Type="0"/>
+    <ROW Component="buildimpl.xml" ComponentId="{CAF15122-2392-4964-96DE-7EA533BA273F}" Directory_="nbproject_Dir" Attributes="0" KeyPath="buildimpl.xml" Type="0"/>
+    <ROW Component="builtjar.properties" ComponentId="{A38B2661-F4C8-4C90-90C2-7499E8599D93}" Directory_="build_Dir" Attributes="0" KeyPath="builtjar.properties" Type="0"/>
+    <ROW Component="config.properties" ComponentId="{04484583-1E02-41CD-863F-D43E2EBA6011}" Directory_="private_Dir" Attributes="0" KeyPath="config.properties" Type="0"/>
+    <ROW Component="netbeans_automatic_build" ComponentId="{13751849-B943-4FB8-8E64-4456A6019957}" Directory_="classes_Dir" Attributes="0" KeyPath="netbeans_automatic_build" Type="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="builtjar.properties" Component_="builtjar.properties" FileName="BUILT-~1.PRO|built-jar.properties" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\built-jar.properties" SelfReg="false"/>
+    <ROW File="netbeans_automatic_build" Component_="netbeans_automatic_build" FileName="NETBEA~1|.netbeans_automatic_build" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\.netbeans_automatic_build" SelfReg="false"/>
+    <ROW File="netbeans_update_resources" Component_="netbeans_automatic_build" FileName="NETBEA~2|.netbeans_update_resources" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\.netbeans_update_resources" SelfReg="false"/>
+    <ROW File="DashboardAdmin1.class" Component_="DashboardAdmin1.class" FileName="DASHBO~1.CLA|DashboardAdmin$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\DashboardAdmin$1.class" SelfReg="false"/>
+    <ROW File="DashboardAdmin2.class" Component_="DashboardAdmin1.class" FileName="DASHBO~2.CLA|DashboardAdmin$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\DashboardAdmin$2.class" SelfReg="false"/>
+    <ROW File="DashboardAdmin3.class" Component_="DashboardAdmin1.class" FileName="DASHBO~3.CLA|DashboardAdmin$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\DashboardAdmin$3.class" SelfReg="false"/>
+    <ROW File="DashboardAdmin4.class" Component_="DashboardAdmin1.class" FileName="DASHBO~4.CLA|DashboardAdmin$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\DashboardAdmin$4.class" SelfReg="false"/>
+    <ROW File="DashboardAdmin5.class" Component_="DashboardAdmin1.class" FileName="DASHBO~5.CLA|DashboardAdmin$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\DashboardAdmin$5.class" SelfReg="false"/>
+    <ROW File="DashboardAdmin6.class" Component_="DashboardAdmin1.class" FileName="DASHBO~6.CLA|DashboardAdmin$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\DashboardAdmin$6.class" SelfReg="false"/>
+    <ROW File="DashboardAdmin7.class" Component_="DashboardAdmin1.class" FileName="DASHBO~7.CLA|DashboardAdmin$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\DashboardAdmin$7.class" SelfReg="false"/>
+    <ROW File="DashboardAdmin.class" Component_="DashboardAdmin1.class" FileName="DASHBO~8.CLA|DashboardAdmin.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\DashboardAdmin.class" SelfReg="false"/>
+    <ROW File="DashboardAdmin.form" Component_="DashboardAdmin1.class" FileName="DASHBO~1.FOR|DashboardAdmin.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\DashboardAdmin.form" SelfReg="false"/>
+    <ROW File="KelolaInvoice1.class" Component_="KelolaInvoice1.class" FileName="KELOLA~1.CLA|KelolaInvoice$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Invoice\KelolaInvoice$1.class" SelfReg="false"/>
+    <ROW File="KelolaInvoice2.class" Component_="KelolaInvoice1.class" FileName="KELOLA~2.CLA|KelolaInvoice$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Invoice\KelolaInvoice$2.class" SelfReg="false"/>
+    <ROW File="KelolaInvoice3.class" Component_="KelolaInvoice1.class" FileName="KELOLA~3.CLA|KelolaInvoice$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Invoice\KelolaInvoice$3.class" SelfReg="false"/>
+    <ROW File="KelolaInvoice4.class" Component_="KelolaInvoice1.class" FileName="KELOLA~4.CLA|KelolaInvoice$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Invoice\KelolaInvoice$4.class" SelfReg="false"/>
+    <ROW File="KelolaInvoice5.class" Component_="KelolaInvoice1.class" FileName="KELOLA~5.CLA|KelolaInvoice$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Invoice\KelolaInvoice$5.class" SelfReg="false"/>
+    <ROW File="KelolaInvoice6.class" Component_="KelolaInvoice1.class" FileName="KELOLA~6.CLA|KelolaInvoice$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Invoice\KelolaInvoice$6.class" SelfReg="false"/>
+    <ROW File="KelolaInvoice7.class" Component_="KelolaInvoice1.class" FileName="KELOLA~7.CLA|KelolaInvoice$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Invoice\KelolaInvoice$7.class" SelfReg="false"/>
+    <ROW File="KelolaInvoice.class" Component_="KelolaInvoice1.class" FileName="KELOLA~8.CLA|KelolaInvoice.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Invoice\KelolaInvoice.class" SelfReg="false"/>
+    <ROW File="KelolaInvoice.form" Component_="KelolaInvoice1.class" FileName="KELOLA~1.FOR|KelolaInvoice.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Invoice\KelolaInvoice.form" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto1.class" Component_="KelolaJadwalFoto1.class" FileName="KELOLA~1.CLA|KelolaJadwalFoto$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\JadwalFoto\KelolaJadwalFoto$1.class" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto2.class" Component_="KelolaJadwalFoto1.class" FileName="KELOLA~2.CLA|KelolaJadwalFoto$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\JadwalFoto\KelolaJadwalFoto$2.class" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto3.class" Component_="KelolaJadwalFoto1.class" FileName="KELOLA~3.CLA|KelolaJadwalFoto$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\JadwalFoto\KelolaJadwalFoto$3.class" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto4.class" Component_="KelolaJadwalFoto1.class" FileName="KELOLA~4.CLA|KelolaJadwalFoto$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\JadwalFoto\KelolaJadwalFoto$4.class" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto5.class" Component_="KelolaJadwalFoto1.class" FileName="KELOLA~5.CLA|KelolaJadwalFoto$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\JadwalFoto\KelolaJadwalFoto$5.class" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto6.class" Component_="KelolaJadwalFoto1.class" FileName="KELOLA~6.CLA|KelolaJadwalFoto$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\JadwalFoto\KelolaJadwalFoto$6.class" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto7.class" Component_="KelolaJadwalFoto1.class" FileName="KELOLA~7.CLA|KelolaJadwalFoto$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\JadwalFoto\KelolaJadwalFoto$7.class" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto8.class" Component_="KelolaJadwalFoto1.class" FileName="KELOLA~8.CLA|KelolaJadwalFoto$8.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\JadwalFoto\KelolaJadwalFoto$8.class" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto9.class" Component_="KelolaJadwalFoto1.class" FileName="KELOLA~9.CLA|KelolaJadwalFoto$9.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\JadwalFoto\KelolaJadwalFoto$9.class" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto.class" Component_="KelolaJadwalFoto1.class" FileName="KELOL~10.CLA|KelolaJadwalFoto.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\JadwalFoto\KelolaJadwalFoto.class" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto.form" Component_="KelolaJadwalFoto1.class" FileName="KELOLA~1.FOR|KelolaJadwalFoto.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\JadwalFoto\KelolaJadwalFoto.form" SelfReg="false"/>
+    <ROW File="KelolaPaket1.class" Component_="KelolaPaket1.class" FileName="KELOLA~1.CLA|KelolaPaket$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Paket\KelolaPaket$1.class" SelfReg="false"/>
+    <ROW File="KelolaPaket2.class" Component_="KelolaPaket1.class" FileName="KELOLA~2.CLA|KelolaPaket$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Paket\KelolaPaket$2.class" SelfReg="false"/>
+    <ROW File="KelolaPaket3.class" Component_="KelolaPaket1.class" FileName="KELOLA~3.CLA|KelolaPaket$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Paket\KelolaPaket$3.class" SelfReg="false"/>
+    <ROW File="KelolaPaket4.class" Component_="KelolaPaket1.class" FileName="KELOLA~4.CLA|KelolaPaket$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Paket\KelolaPaket$4.class" SelfReg="false"/>
+    <ROW File="KelolaPaket5.class" Component_="KelolaPaket1.class" FileName="KELOLA~5.CLA|KelolaPaket$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Paket\KelolaPaket$5.class" SelfReg="false"/>
+    <ROW File="KelolaPaket6.class" Component_="KelolaPaket1.class" FileName="KELOLA~6.CLA|KelolaPaket$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Paket\KelolaPaket$6.class" SelfReg="false"/>
+    <ROW File="KelolaPaket7.class" Component_="KelolaPaket1.class" FileName="KELOLA~7.CLA|KelolaPaket$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Paket\KelolaPaket$7.class" SelfReg="false"/>
+    <ROW File="KelolaPaket.class" Component_="KelolaPaket1.class" FileName="KELOLA~8.CLA|KelolaPaket.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Paket\KelolaPaket.class" SelfReg="false"/>
+    <ROW File="KelolaPaket.form" Component_="KelolaPaket1.class" FileName="KELOLA~1.FOR|KelolaPaket.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Paket\KelolaPaket.form" SelfReg="false"/>
+    <ROW File="KelolaPegawai1.class" Component_="KelolaPegawai1.class" FileName="KELOLA~1.CLA|KelolaPegawai$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Pegawai\KelolaPegawai$1.class" SelfReg="false"/>
+    <ROW File="KelolaPegawai2.class" Component_="KelolaPegawai1.class" FileName="KELOLA~2.CLA|KelolaPegawai$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Pegawai\KelolaPegawai$2.class" SelfReg="false"/>
+    <ROW File="KelolaPegawai3.class" Component_="KelolaPegawai1.class" FileName="KELOLA~3.CLA|KelolaPegawai$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Pegawai\KelolaPegawai$3.class" SelfReg="false"/>
+    <ROW File="KelolaPegawai4.class" Component_="KelolaPegawai1.class" FileName="KELOLA~4.CLA|KelolaPegawai$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Pegawai\KelolaPegawai$4.class" SelfReg="false"/>
+    <ROW File="KelolaPegawai5.class" Component_="KelolaPegawai1.class" FileName="KELOLA~5.CLA|KelolaPegawai$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Pegawai\KelolaPegawai$5.class" SelfReg="false"/>
+    <ROW File="KelolaPegawai6.class" Component_="KelolaPegawai1.class" FileName="KELOLA~6.CLA|KelolaPegawai$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Pegawai\KelolaPegawai$6.class" SelfReg="false"/>
+    <ROW File="KelolaPegawai7.class" Component_="KelolaPegawai1.class" FileName="KELOLA~7.CLA|KelolaPegawai$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Pegawai\KelolaPegawai$7.class" SelfReg="false"/>
+    <ROW File="KelolaPegawai8.class" Component_="KelolaPegawai1.class" FileName="KELOLA~8.CLA|KelolaPegawai$8.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Pegawai\KelolaPegawai$8.class" SelfReg="false"/>
+    <ROW File="KelolaPegawai.class" Component_="KelolaPegawai1.class" FileName="KELOLA~9.CLA|KelolaPegawai.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Pegawai\KelolaPegawai.class" SelfReg="false"/>
+    <ROW File="KelolaPegawai.form" Component_="KelolaPegawai1.class" FileName="KELOLA~1.FOR|KelolaPegawai.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Pegawai\KelolaPegawai.form" SelfReg="false"/>
+    <ROW File="KelolaPelanggan1.class" Component_="KelolaPelanggan1.class" FileName="KELOLA~1.CLA|KelolaPelanggan$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Pelanggan\KelolaPelanggan$1.class" SelfReg="false"/>
+    <ROW File="KelolaPelanggan2.class" Component_="KelolaPelanggan1.class" FileName="KELOLA~2.CLA|KelolaPelanggan$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Pelanggan\KelolaPelanggan$2.class" SelfReg="false"/>
+    <ROW File="KelolaPelanggan3.class" Component_="KelolaPelanggan1.class" FileName="KELOLA~3.CLA|KelolaPelanggan$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Pelanggan\KelolaPelanggan$3.class" SelfReg="false"/>
+    <ROW File="KelolaPelanggan4.class" Component_="KelolaPelanggan1.class" FileName="KELOLA~4.CLA|KelolaPelanggan$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Pelanggan\KelolaPelanggan$4.class" SelfReg="false"/>
+    <ROW File="KelolaPelanggan5.class" Component_="KelolaPelanggan1.class" FileName="KELOLA~5.CLA|KelolaPelanggan$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Pelanggan\KelolaPelanggan$5.class" SelfReg="false"/>
+    <ROW File="KelolaPelanggan6.class" Component_="KelolaPelanggan1.class" FileName="KELOLA~6.CLA|KelolaPelanggan$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Pelanggan\KelolaPelanggan$6.class" SelfReg="false"/>
+    <ROW File="KelolaPelanggan7.class" Component_="KelolaPelanggan1.class" FileName="KELOLA~7.CLA|KelolaPelanggan$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Pelanggan\KelolaPelanggan$7.class" SelfReg="false"/>
+    <ROW File="KelolaPelanggan.class" Component_="KelolaPelanggan1.class" FileName="KELOLA~8.CLA|KelolaPelanggan.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Pelanggan\KelolaPelanggan.class" SelfReg="false"/>
+    <ROW File="KelolaPelanggan.form" Component_="KelolaPelanggan1.class" FileName="KELOLA~1.FOR|KelolaPelanggan.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Pelanggan\KelolaPelanggan.form" SelfReg="false"/>
+    <ROW File="KelolaUsers1.class" Component_="KelolaUsers1.class" FileName="KELOLA~1.CLA|KelolaUsers$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Users\KelolaUsers$1.class" SelfReg="false"/>
+    <ROW File="KelolaUsers2.class" Component_="KelolaUsers1.class" FileName="KELOLA~2.CLA|KelolaUsers$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Users\KelolaUsers$2.class" SelfReg="false"/>
+    <ROW File="KelolaUsers3.class" Component_="KelolaUsers1.class" FileName="KELOLA~3.CLA|KelolaUsers$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Users\KelolaUsers$3.class" SelfReg="false"/>
+    <ROW File="KelolaUsers4.class" Component_="KelolaUsers1.class" FileName="KELOLA~4.CLA|KelolaUsers$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Users\KelolaUsers$4.class" SelfReg="false"/>
+    <ROW File="KelolaUsers5.class" Component_="KelolaUsers1.class" FileName="KELOLA~5.CLA|KelolaUsers$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Users\KelolaUsers$5.class" SelfReg="false"/>
+    <ROW File="KelolaUsers6.class" Component_="KelolaUsers1.class" FileName="KELOLA~6.CLA|KelolaUsers$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Users\KelolaUsers$6.class" SelfReg="false"/>
+    <ROW File="KelolaUsers7.class" Component_="KelolaUsers1.class" FileName="KELOLA~7.CLA|KelolaUsers$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Users\KelolaUsers$7.class" SelfReg="false"/>
+    <ROW File="KelolaUsers.class" Component_="KelolaUsers1.class" FileName="KELOLA~8.CLA|KelolaUsers.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Users\KelolaUsers.class" SelfReg="false"/>
+    <ROW File="KelolaUsers.form" Component_="KelolaUsers1.class" FileName="KELOLA~1.FOR|KelolaUsers.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Admin\Users\KelolaUsers.form" SelfReg="false"/>
+    <ROW File="DashboardPegawai1.class" Component_="DashboardPegawai1.class" FileName="DASHBO~1.CLA|DashboardPegawai$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pegawai\DashboardPegawai$1.class" SelfReg="false"/>
+    <ROW File="DashboardPegawai2.class" Component_="DashboardPegawai1.class" FileName="DASHBO~2.CLA|DashboardPegawai$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pegawai\DashboardPegawai$2.class" SelfReg="false"/>
+    <ROW File="DashboardPegawai3.class" Component_="DashboardPegawai1.class" FileName="DASHBO~3.CLA|DashboardPegawai$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pegawai\DashboardPegawai$3.class" SelfReg="false"/>
+    <ROW File="DashboardPegawai4.class" Component_="DashboardPegawai1.class" FileName="DASHBO~4.CLA|DashboardPegawai$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pegawai\DashboardPegawai$4.class" SelfReg="false"/>
+    <ROW File="DashboardPegawai5.class" Component_="DashboardPegawai1.class" FileName="DASHBO~5.CLA|DashboardPegawai$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pegawai\DashboardPegawai$5.class" SelfReg="false"/>
+    <ROW File="DashboardPegawai.class" Component_="DashboardPegawai1.class" FileName="DASHBO~6.CLA|DashboardPegawai.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pegawai\DashboardPegawai.class" SelfReg="false"/>
+    <ROW File="DashboardPegawai.form" Component_="DashboardPegawai1.class" FileName="DASHBO~1.FOR|DashboardPegawai.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pegawai\DashboardPegawai.form" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto1.class_1" Component_="KelolaJadwalFoto1.class_1" FileName="KELOLA~1.CLA|KelolaJadwalFoto$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pegawai\JadwalFoto\KelolaJadwalFoto$1.class" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto2.class_1" Component_="KelolaJadwalFoto1.class_1" FileName="KELOLA~2.CLA|KelolaJadwalFoto$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pegawai\JadwalFoto\KelolaJadwalFoto$2.class" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto3.class_1" Component_="KelolaJadwalFoto1.class_1" FileName="KELOLA~3.CLA|KelolaJadwalFoto$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pegawai\JadwalFoto\KelolaJadwalFoto$3.class" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto4.class_1" Component_="KelolaJadwalFoto1.class_1" FileName="KELOLA~4.CLA|KelolaJadwalFoto$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pegawai\JadwalFoto\KelolaJadwalFoto$4.class" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto.class_1" Component_="KelolaJadwalFoto1.class_1" FileName="KELOLA~5.CLA|KelolaJadwalFoto.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pegawai\JadwalFoto\KelolaJadwalFoto.class" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto.form_1" Component_="KelolaJadwalFoto1.class_1" FileName="KELOLA~1.FOR|KelolaJadwalFoto.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pegawai\JadwalFoto\KelolaJadwalFoto.form" SelfReg="false"/>
+    <ROW File="KelolaPegawai1.class_1" Component_="KelolaPegawai1.class_1" FileName="KELOLA~1.CLA|KelolaPegawai$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pegawai\Pegawai\KelolaPegawai$1.class" SelfReg="false"/>
+    <ROW File="KelolaPegawai2.class_1" Component_="KelolaPegawai1.class_1" FileName="KELOLA~2.CLA|KelolaPegawai$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pegawai\Pegawai\KelolaPegawai$2.class" SelfReg="false"/>
+    <ROW File="KelolaPegawai3.class_1" Component_="KelolaPegawai1.class_1" FileName="KELOLA~3.CLA|KelolaPegawai$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pegawai\Pegawai\KelolaPegawai$3.class" SelfReg="false"/>
+    <ROW File="KelolaPegawai4.class_1" Component_="KelolaPegawai1.class_1" FileName="KELOLA~4.CLA|KelolaPegawai$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pegawai\Pegawai\KelolaPegawai$4.class" SelfReg="false"/>
+    <ROW File="KelolaPegawai.class_1" Component_="KelolaPegawai1.class_1" FileName="KELOLA~5.CLA|KelolaPegawai.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pegawai\Pegawai\KelolaPegawai.class" SelfReg="false"/>
+    <ROW File="KelolaPegawai.form_1" Component_="KelolaPegawai1.class_1" FileName="KELOLA~1.FOR|KelolaPegawai.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pegawai\Pegawai\KelolaPegawai.form" SelfReg="false"/>
+    <ROW File="HalamanInformasiPemesanan1.class" Component_="HalamanInformasiPemesanan1.class" FileName="HALAMA~1.CLA|HalamanInformasiPemesanan$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggan\HalamanInformasiPemesanan\HalamanInformasiPemesanan$1.class" SelfReg="false"/>
+    <ROW File="HalamanInformasiPemesanan2.class" Component_="HalamanInformasiPemesanan1.class" FileName="HALAMA~2.CLA|HalamanInformasiPemesanan$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggan\HalamanInformasiPemesanan\HalamanInformasiPemesanan$2.class" SelfReg="false"/>
+    <ROW File="HalamanInformasiPemesanan.class" Component_="HalamanInformasiPemesanan1.class" FileName="HALAMA~3.CLA|HalamanInformasiPemesanan.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggan\HalamanInformasiPemesanan\HalamanInformasiPemesanan.class" SelfReg="false"/>
+    <ROW File="HalamanInformasiPemesanan.form" Component_="HalamanInformasiPemesanan1.class" FileName="HALAMA~1.FOR|HalamanInformasiPemesanan.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggan\HalamanInformasiPemesanan\HalamanInformasiPemesanan.form" SelfReg="false"/>
+    <ROW File="HalamanInvoice1.class" Component_="HalamanInvoice1.class" FileName="HALAMA~1.CLA|HalamanInvoice$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggan\HalamanInvoice\HalamanInvoice$1.class" SelfReg="false"/>
+    <ROW File="HalamanInvoice2.class" Component_="HalamanInvoice1.class" FileName="HALAMA~2.CLA|HalamanInvoice$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggan\HalamanInvoice\HalamanInvoice$2.class" SelfReg="false"/>
+    <ROW File="HalamanInvoice3.class" Component_="HalamanInvoice1.class" FileName="HALAMA~3.CLA|HalamanInvoice$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggan\HalamanInvoice\HalamanInvoice$3.class" SelfReg="false"/>
+    <ROW File="HalamanInvoice.class" Component_="HalamanInvoice1.class" FileName="HALAMA~4.CLA|HalamanInvoice.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggan\HalamanInvoice\HalamanInvoice.class" SelfReg="false"/>
+    <ROW File="HalamanInvoice.form" Component_="HalamanInvoice1.class" FileName="HALAMA~1.FOR|HalamanInvoice.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggan\HalamanInvoice\HalamanInvoice.form" SelfReg="false"/>
+    <ROW File="HalamanPemesanan1.class" Component_="HalamanPemesanan1.class" FileName="HALAMA~1.CLA|HalamanPemesanan$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggan\HalamanPemesanan\HalamanPemesanan$1.class" SelfReg="false"/>
+    <ROW File="HalamanPemesanan2.class" Component_="HalamanPemesanan1.class" FileName="HALAMA~2.CLA|HalamanPemesanan$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggan\HalamanPemesanan\HalamanPemesanan$2.class" SelfReg="false"/>
+    <ROW File="HalamanPemesanan3.class" Component_="HalamanPemesanan1.class" FileName="HALAMA~3.CLA|HalamanPemesanan$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggan\HalamanPemesanan\HalamanPemesanan$3.class" SelfReg="false"/>
+    <ROW File="HalamanPemesanan4.class" Component_="HalamanPemesanan1.class" FileName="HALAMA~4.CLA|HalamanPemesanan$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggan\HalamanPemesanan\HalamanPemesanan$4.class" SelfReg="false"/>
+    <ROW File="HalamanPemesanan5.class" Component_="HalamanPemesanan1.class" FileName="HALAMA~5.CLA|HalamanPemesanan$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggan\HalamanPemesanan\HalamanPemesanan$5.class" SelfReg="false"/>
+    <ROW File="HalamanPemesanan6.class" Component_="HalamanPemesanan1.class" FileName="HALAMA~6.CLA|HalamanPemesanan$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggan\HalamanPemesanan\HalamanPemesanan$6.class" SelfReg="false"/>
+    <ROW File="HalamanPemesanan7.class" Component_="HalamanPemesanan1.class" FileName="HALAMA~7.CLA|HalamanPemesanan$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggan\HalamanPemesanan\HalamanPemesanan$7.class" SelfReg="false"/>
+    <ROW File="HalamanPemesanan.class" Component_="HalamanPemesanan1.class" FileName="HALAMA~8.CLA|HalamanPemesanan.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggan\HalamanPemesanan\HalamanPemesanan.class" SelfReg="false"/>
+    <ROW File="HalamanPemesanan.form" Component_="HalamanPemesanan1.class" FileName="HALAMA~1.FOR|HalamanPemesanan.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggan\HalamanPemesanan\HalamanPemesanan.form" SelfReg="false"/>
+    <ROW File="Pelanggan1.class" Component_="Pelanggan1.class" FileName="PELANG~1.CLA|Pelanggan$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggann\Pelanggan$1.class" SelfReg="false"/>
+    <ROW File="Pelanggan2.class" Component_="Pelanggan1.class" FileName="PELANG~2.CLA|Pelanggan$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggann\Pelanggan$2.class" SelfReg="false"/>
+    <ROW File="Pelanggan3.class" Component_="Pelanggan1.class" FileName="PELANG~3.CLA|Pelanggan$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggann\Pelanggan$3.class" SelfReg="false"/>
+    <ROW File="Pelanggan4.class" Component_="Pelanggan1.class" FileName="PELANG~4.CLA|Pelanggan$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggann\Pelanggan$4.class" SelfReg="false"/>
+    <ROW File="Pelanggan.class" Component_="Pelanggan1.class" FileName="PELANG~5.CLA|Pelanggan.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggann\Pelanggan.class" SelfReg="false"/>
+    <ROW File="Pelanggan.form" Component_="Pelanggan1.class" FileName="PELANG~1.FOR|Pelanggan.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Pelanggann\Pelanggan.form" SelfReg="false"/>
+    <ROW File="HalamanLogin1.class" Component_="HalamanLogin1.class" FileName="HALAMA~1.CLA|HalamanLogin$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\tugas\kelompok\pkg4\HalamanLogin$1.class" SelfReg="false"/>
+    <ROW File="HalamanLogin2.class" Component_="HalamanLogin1.class" FileName="HALAMA~2.CLA|HalamanLogin$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\tugas\kelompok\pkg4\HalamanLogin$2.class" SelfReg="false"/>
+    <ROW File="HalamanLogin3.class" Component_="HalamanLogin1.class" FileName="HALAMA~3.CLA|HalamanLogin$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\tugas\kelompok\pkg4\HalamanLogin$3.class" SelfReg="false"/>
+    <ROW File="HalamanLogin.class" Component_="HalamanLogin1.class" FileName="HALAMA~4.CLA|HalamanLogin.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\tugas\kelompok\pkg4\HalamanLogin.class" SelfReg="false"/>
+    <ROW File="HalamanLogin.form" Component_="HalamanLogin1.class" FileName="HALAMA~1.FOR|HalamanLogin.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\tugas\kelompok\pkg4\HalamanLogin.form" SelfReg="false"/>
+    <ROW File="TugasKelompok4.class" Component_="HalamanLogin1.class" FileName="TUGASK~1.CLA|TugasKelompok4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\tugas\kelompok\pkg4\TugasKelompok4.class" SelfReg="false"/>
+    <ROW File="DBConnection.class" Component_="DBConnection.class" FileName="DBCONN~1.CLA|DBConnection.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Utill\DBConnection.class" SelfReg="false"/>
+    <ROW File="HashUtil.class" Component_="DBConnection.class" FileName="HASHUT~1.CLA|HashUtil.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Utill\HashUtil.class" SelfReg="false"/>
+    <ROW File="MessageDialog.class" Component_="DBConnection.class" FileName="MESSAG~1.CLA|MessageDialog.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build\classes\Utill\MessageDialog.class" SelfReg="false"/>
+    <ROW File="build.xml" Component_="build.xml" FileName="build.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\build.xml" SelfReg="false"/>
+    <ROW File="DateChooser.jar" Component_="DateChooser.jar" FileName="DATECH~1.JAR|DateChooser.jar" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\dist\lib\DateChooser.jar" SelfReg="false"/>
+    <ROW File="mysqlconnectorj9.3.0.jar" Component_="DateChooser.jar" FileName="MYSQL-~1.JAR|mysql-connector-j-9.3.0.jar" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\dist\lib\mysql-connector-j-9.3.0.jar" SelfReg="false"/>
+    <ROW File="README.TXT" Component_="README.TXT" FileName="README.TXT" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\dist\README.TXT" SelfReg="false"/>
+    <ROW File="TugasKelompok4.jar" Component_="README.TXT" FileName="TUGAS-~1.JAR|Tugas-Kelompok-4.jar" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\dist\Tugas-Kelompok-4.jar" SelfReg="false"/>
+    <ROW File="manifest.mf" Component_="build.xml" FileName="manifest.mf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\manifest.mf" SelfReg="false"/>
+    <ROW File="buildimpl.xml" Component_="buildimpl.xml" FileName="BUILD-~1.XML|build-impl.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\nbproject\build-impl.xml" SelfReg="false"/>
+    <ROW File="genfiles.properties" Component_="buildimpl.xml" FileName="GENFIL~1.PRO|genfiles.properties" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\nbproject\genfiles.properties" SelfReg="false"/>
+    <ROW File="config.properties" Component_="config.properties" FileName="CONFIG~1.PRO|config.properties" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\nbproject\private\config.properties" SelfReg="false"/>
+    <ROW File="private.properties" Component_="config.properties" FileName="PRIVAT~1.PRO|private.properties" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\nbproject\private\private.properties" SelfReg="false"/>
+    <ROW File="private.xml" Component_="config.properties" FileName="private.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\nbproject\private\private.xml" SelfReg="false"/>
+    <ROW File="project.properties" Component_="buildimpl.xml" FileName="PROJEC~1.PRO|project.properties" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\nbproject\project.properties" SelfReg="false"/>
+    <ROW File="project.xml" Component_="buildimpl.xml" FileName="project.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\nbproject\project.xml" SelfReg="false"/>
+    <ROW File="DashboardAdmin.form_1" Component_="DashboardAdmin.form" FileName="DASHBO~1.FOR|DashboardAdmin.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Admin\DashboardAdmin.form" SelfReg="false"/>
+    <ROW File="DashboardAdmin.java" Component_="DashboardAdmin.form" FileName="DASHBO~1.JAV|DashboardAdmin.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Admin\DashboardAdmin.java" SelfReg="false"/>
+    <ROW File="KelolaInvoice.form_1" Component_="KelolaInvoice.form" FileName="KELOLA~1.FOR|KelolaInvoice.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Admin\Invoice\KelolaInvoice.form" SelfReg="false"/>
+    <ROW File="KelolaInvoice.java" Component_="KelolaInvoice.form" FileName="KELOLA~1.JAV|KelolaInvoice.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Admin\Invoice\KelolaInvoice.java" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto.form_2" Component_="KelolaJadwalFoto.form" FileName="KELOLA~1.FOR|KelolaJadwalFoto.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Admin\JadwalFoto\KelolaJadwalFoto.form" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto.java" Component_="KelolaJadwalFoto.form" FileName="KELOLA~1.JAV|KelolaJadwalFoto.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Admin\JadwalFoto\KelolaJadwalFoto.java" SelfReg="false"/>
+    <ROW File="KelolaPaket.form_1" Component_="KelolaPaket.form" FileName="KELOLA~1.FOR|KelolaPaket.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Admin\Paket\KelolaPaket.form" SelfReg="false"/>
+    <ROW File="KelolaPaket.java" Component_="KelolaPaket.form" FileName="KELOLA~1.JAV|KelolaPaket.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Admin\Paket\KelolaPaket.java" SelfReg="false"/>
+    <ROW File="KelolaPegawai.form_2" Component_="KelolaPegawai.form" FileName="KELOLA~1.FOR|KelolaPegawai.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Admin\Pegawai\KelolaPegawai.form" SelfReg="false"/>
+    <ROW File="KelolaPegawai.java" Component_="KelolaPegawai.form" FileName="KELOLA~1.JAV|KelolaPegawai.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Admin\Pegawai\KelolaPegawai.java" SelfReg="false"/>
+    <ROW File="KelolaPelanggan.form_1" Component_="KelolaPelanggan.form" FileName="KELOLA~1.FOR|KelolaPelanggan.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Admin\Pelanggan\KelolaPelanggan.form" SelfReg="false"/>
+    <ROW File="KelolaPelanggan.java" Component_="KelolaPelanggan.form" FileName="KELOLA~1.JAV|KelolaPelanggan.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Admin\Pelanggan\KelolaPelanggan.java" SelfReg="false"/>
+    <ROW File="KelolaUsers.form_1" Component_="KelolaUsers.form" FileName="KELOLA~1.FOR|KelolaUsers.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Admin\Users\KelolaUsers.form" SelfReg="false"/>
+    <ROW File="KelolaUsers.java" Component_="KelolaUsers.form" FileName="KELOLA~1.JAV|KelolaUsers.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Admin\Users\KelolaUsers.java" SelfReg="false"/>
+    <ROW File="DashboardPegawai.form_1" Component_="DashboardPegawai.form" FileName="DASHBO~1.FOR|DashboardPegawai.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Pegawai\DashboardPegawai.form" SelfReg="false"/>
+    <ROW File="DashboardPegawai.java" Component_="DashboardPegawai.form" FileName="DASHBO~1.JAV|DashboardPegawai.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Pegawai\DashboardPegawai.java" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto.form_3" Component_="KelolaJadwalFoto.form_1" FileName="KELOLA~1.FOR|KelolaJadwalFoto.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Pegawai\JadwalFoto\KelolaJadwalFoto.form" SelfReg="false"/>
+    <ROW File="KelolaJadwalFoto.java_1" Component_="KelolaJadwalFoto.form_1" FileName="KELOLA~1.JAV|KelolaJadwalFoto.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Pegawai\JadwalFoto\KelolaJadwalFoto.java" SelfReg="false"/>
+    <ROW File="KelolaPegawai.form_3" Component_="KelolaPegawai.form_1" FileName="KELOLA~1.FOR|KelolaPegawai.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Pegawai\Pegawai\KelolaPegawai.form" SelfReg="false"/>
+    <ROW File="KelolaPegawai.java_1" Component_="KelolaPegawai.form_1" FileName="KELOLA~1.JAV|KelolaPegawai.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Pegawai\Pegawai\KelolaPegawai.java" SelfReg="false"/>
+    <ROW File="HalamanInformasiPemesanan.form_1" Component_="HalamanInformasiPemesanan.form" FileName="HALAMA~1.FOR|HalamanInformasiPemesanan.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Pelanggan\HalamanInformasiPemesanan\HalamanInformasiPemesanan.form" SelfReg="false"/>
+    <ROW File="HalamanInformasiPemesanan.java" Component_="HalamanInformasiPemesanan.form" FileName="HALAMA~1.JAV|HalamanInformasiPemesanan.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Pelanggan\HalamanInformasiPemesanan\HalamanInformasiPemesanan.java" SelfReg="false"/>
+    <ROW File="HalamanInvoice.form_1" Component_="HalamanInvoice.form" FileName="HALAMA~1.FOR|HalamanInvoice.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Pelanggan\HalamanInvoice\HalamanInvoice.form" SelfReg="false"/>
+    <ROW File="HalamanInvoice.java" Component_="HalamanInvoice.form" FileName="HALAMA~1.JAV|HalamanInvoice.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Pelanggan\HalamanInvoice\HalamanInvoice.java" SelfReg="false"/>
+    <ROW File="HalamanPemesanan.form_1" Component_="HalamanPemesanan.form" FileName="HALAMA~1.FOR|HalamanPemesanan.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Pelanggan\HalamanPemesanan\HalamanPemesanan.form" SelfReg="false"/>
+    <ROW File="HalamanPemesanan.java" Component_="HalamanPemesanan.form" FileName="HALAMA~1.JAV|HalamanPemesanan.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Pelanggan\HalamanPemesanan\HalamanPemesanan.java" SelfReg="false"/>
+    <ROW File="Pelanggan.form_1" Component_="Pelanggan.form" FileName="PELANG~1.FOR|Pelanggan.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Pelanggann\Pelanggan.form" SelfReg="false"/>
+    <ROW File="Pelanggan.java" Component_="Pelanggan.form" FileName="PELANG~1.JAV|Pelanggan.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Pelanggann\Pelanggan.java" SelfReg="false"/>
+    <ROW File="HalamanLogin.form_1" Component_="HalamanLogin.form" FileName="HALAMA~1.FOR|HalamanLogin.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\tugas\kelompok\pkg4\HalamanLogin.form" SelfReg="false"/>
+    <ROW File="HalamanLogin.java" Component_="HalamanLogin.form" FileName="HALAMA~1.JAV|HalamanLogin.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\tugas\kelompok\pkg4\HalamanLogin.java" SelfReg="false"/>
+    <ROW File="TugasKelompok4.java" Component_="HalamanLogin.form" FileName="TUGASK~1.JAV|TugasKelompok4.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\tugas\kelompok\pkg4\TugasKelompok4.java" SelfReg="false"/>
+    <ROW File="DBConnection.java" Component_="DBConnection.java" FileName="DBCONN~1.JAV|DBConnection.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Utill\DBConnection.java" SelfReg="false"/>
+    <ROW File="HashUtil.java" Component_="DBConnection.java" FileName="HASHUT~1.JAV|HashUtil.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Utill\HashUtil.java" SelfReg="false"/>
+    <ROW File="MessageDialog.java" Component_="DBConnection.java" FileName="MESSAG~1.JAV|MessageDialog.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\src\Utill\MessageDialog.java" SelfReg="false"/>
+    <ROW File="HaviraBraniPhotography.exe" Component_="HaviraBraniPhotography.exe" FileName="HAVIRA~1.EXE|Havira Brani Photography.exe" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_STUBS_64&gt;aijclw.exe" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="id" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_id.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Type="65" Source="aicustact.dll" Target="PreserveInstallType"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="builtjar.properties"/>
+    <ROW Feature_="MainFeature" Component_="netbeans_automatic_build"/>
+    <ROW Feature_="MainFeature" Component_="DashboardAdmin1.class"/>
+    <ROW Feature_="MainFeature" Component_="KelolaInvoice1.class"/>
+    <ROW Feature_="MainFeature" Component_="KelolaJadwalFoto1.class"/>
+    <ROW Feature_="MainFeature" Component_="KelolaPaket1.class"/>
+    <ROW Feature_="MainFeature" Component_="KelolaPegawai1.class"/>
+    <ROW Feature_="MainFeature" Component_="KelolaPelanggan1.class"/>
+    <ROW Feature_="MainFeature" Component_="KelolaUsers1.class"/>
+    <ROW Feature_="MainFeature" Component_="DashboardPegawai1.class"/>
+    <ROW Feature_="MainFeature" Component_="KelolaJadwalFoto1.class_1"/>
+    <ROW Feature_="MainFeature" Component_="KelolaPegawai1.class_1"/>
+    <ROW Feature_="MainFeature" Component_="HalamanInformasiPemesanan1.class"/>
+    <ROW Feature_="MainFeature" Component_="HalamanInvoice1.class"/>
+    <ROW Feature_="MainFeature" Component_="HalamanPemesanan1.class"/>
+    <ROW Feature_="MainFeature" Component_="Pelanggan1.class"/>
+    <ROW Feature_="MainFeature" Component_="HalamanLogin1.class"/>
+    <ROW Feature_="MainFeature" Component_="DBConnection.class"/>
+    <ROW Feature_="MainFeature" Component_="build.xml"/>
+    <ROW Feature_="MainFeature" Component_="DateChooser.jar"/>
+    <ROW Feature_="MainFeature" Component_="README.TXT"/>
+    <ROW Feature_="MainFeature" Component_="buildimpl.xml"/>
+    <ROW Feature_="MainFeature" Component_="config.properties"/>
+    <ROW Feature_="MainFeature" Component_="DashboardAdmin.form"/>
+    <ROW Feature_="MainFeature" Component_="KelolaInvoice.form"/>
+    <ROW Feature_="MainFeature" Component_="KelolaJadwalFoto.form"/>
+    <ROW Feature_="MainFeature" Component_="KelolaPaket.form"/>
+    <ROW Feature_="MainFeature" Component_="KelolaPegawai.form"/>
+    <ROW Feature_="MainFeature" Component_="KelolaPelanggan.form"/>
+    <ROW Feature_="MainFeature" Component_="KelolaUsers.form"/>
+    <ROW Feature_="MainFeature" Component_="DashboardPegawai.form"/>
+    <ROW Feature_="MainFeature" Component_="KelolaJadwalFoto.form_1"/>
+    <ROW Feature_="MainFeature" Component_="KelolaPegawai.form_1"/>
+    <ROW Feature_="MainFeature" Component_="HalamanInformasiPemesanan.form"/>
+    <ROW Feature_="MainFeature" Component_="HalamanInvoice.form"/>
+    <ROW Feature_="MainFeature" Component_="HalamanPemesanan.form"/>
+    <ROW Feature_="MainFeature" Component_="Pelanggan.form"/>
+    <ROW Feature_="MainFeature" Component_="HalamanLogin.form"/>
+    <ROW Feature_="MainFeature" Component_="DBConnection.java"/>
+    <ROW Feature_="MainFeature" Component_="HaviraBraniPhotography.exe"/>
+    <ROW Feature_="MainFeature" Component_="SHORTCUTDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIniFileComponent">
+    <ROW IniFile="ApplicationType" FileName="HAVIRA~2.INI|Havira Brani Photography.ini" DirProperty="APPDIR" Section="Application" Key="Application Type" Value="gui" Action="0" Component_="HaviraBraniPhotography.exe"/>
+    <ROW IniFile="ClassPath" FileName="HAVIRA~2.INI|Havira Brani Photography.ini" DirProperty="APPDIR" Section="Class Path" Key="Class Path" Value="[TugasKelompok4_Dir];[#mysqlconnectorj9.3.0.jar];[#DateChooser.jar];" Action="0" Component_="HaviraBraniPhotography.exe"/>
+    <ROW IniFile="EmbeddedJar" FileName="HAVIRA~2.INI|Havira Brani Photography.ini" DirProperty="APPDIR" Section="Application" Key="Embedded Jar" Value="yes" Action="0" Component_="HaviraBraniPhotography.exe"/>
+    <ROW IniFile="FailureCheck" FileName="HAVIRA~2.INI|Havira Brani Photography.ini" DirProperty="APPDIR" Section="Application" Key="Failure Check" Value="yes" Action="0" Component_="HaviraBraniPhotography.exe"/>
+    <ROW IniFile="MainClass" FileName="HAVIRA~2.INI|Havira Brani Photography.ini" DirProperty="APPDIR" Section="Java Runtime Environment" Key="Main Class" Value="tugas.kelompok.pkg4.TugasKelompok4" Action="0" Component_="HaviraBraniPhotography.exe"/>
+    <ROW IniFile="MaximumVersion" FileName="HAVIRA~2.INI|Havira Brani Photography.ini" DirProperty="APPDIR" Section="Java Runtime Environment" Key="Maximum Version" Value="any" Action="0" Component_="HaviraBraniPhotography.exe"/>
+    <ROW IniFile="MinimumVersion" FileName="HAVIRA~2.INI|Havira Brani Photography.ini" DirProperty="APPDIR" Section="Java Runtime Environment" Key="Minimum Version" Value="any" Action="0" Component_="HaviraBraniPhotography.exe"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Sequence="199"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiJavaComponent">
+    <ROW Name="Havira Brani Photography.exe" Launcher="HaviraBraniPhotography.exe" MainClass="MainClass" ClassPath="ClassPath" JREMin="MinimumVersion" JREMax="MaximumVersion" IconPath="2998131-camera-photo-photography_99870.ico" AppType="ApplicationType" PlusList="APPDIR;" MinusList="#HaviraBraniPhotography.exe;" MacDescription="[|CurrentJavaProductName] [|ProductVersion] © [|Manufacturer], Inc, 2025" MacBundleId="com.[|Manufacturer].[|ProductName].[|CurrentJavaProductName]" FailureCheck="FailureCheck" UACExecutionLevel="2" Platform64="true" EmbJarPath="..\Documents\Coding\Jawa\Tugas-Kelompok-4\dist\Tugas-Kelompok-4.jar" HasEmbJar="EmbeddedJar"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] tidak dapat diinstal di [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] tidak dapat diinstal di [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] tidak dapat diinstal di [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 600)" Description="[ProductName] tidak dapat diinstal di [WindowsTypeNT60Display]." DescriptionLocId="AI.LaunchCondition.NoNT60" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] tidak dapat diinstal di [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="HaviraBraniPhotography" Directory_="SHORTCUTDIR" Name="HAVIRA~1|Havira Brani Photography" Component_="HaviraBraniPhotography.exe" Target="[#HaviraBraniPhotography.exe]" Description="[|CurrentJavaProductName] [|ProductVersion] © [|Manufacturer], Inc, 2025" Hotkey="0" IconIndex="0" ShowCmd="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>
