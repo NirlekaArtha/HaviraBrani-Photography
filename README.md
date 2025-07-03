@@ -22,7 +22,7 @@ bernama "photography" lalu import file "photography.sql" melalui PHPmyadmin, ata
 mysql -u root photography < "photography.sql"
 ```
 <br/>
-Setelah setup database selesai, jalankan file Aplikasi Photography.aip dan ikuti
+Setelah setup database selesai, jalankan file Aplikasi Photography.msi dan ikuti
 proses instalasi sampai selesai. 
 
 <br/>
